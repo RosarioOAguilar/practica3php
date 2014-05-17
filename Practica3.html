@@ -1,0 +1,124 @@
+<!DOCTYLE HTML>
+<html>
+
+<head>
+<title>Practica 3</title>
+</head>
+
+<body>
+
+<form>
+
+<fieldset>
+<legend aling="center">Datos Generales</legend>
+
+</form action="guardar.php" method="GET">
+Nombre <input type ="texto" name="nombre" id="nom"
+size="16" maxlengt="10"> <br />
+
+Apellido Paterno <input type ="texto" name="apepa" id="appa"
+size="16" maxlengt="10"> <br />
+
+Apellido Materno <input type ="texto" name="apema" id="appa"
+size="16" maxlengt="10"> <br />
+
+Foto <input type="file" name="foto" id="f1"
+size="16" maxlengt="10"> <br />
+
+Fecha de Nacimiento <br />
+<select name ="fecha">
+<option value="">Dia</option>
+<option value="1"> 1</option>
+<option value="2"> 2</option>
+<option value="1"> 3</option>
+<option value="2"> 4</option>
+<option value="1"> 5</option>
+<option value="2"> 6</option>
+<option value="1"> 7</option>
+<option value="2"> 8</option>
+<option value="1"> 9</option>
+<option value="2">10 </option>
+<option value="1"> 11</option>
+<option value="2"> 12</option>
+<option value="1"> 13</option>
+<option value="2"> 14</option>
+<option value="1"> 15</option>
+<option value="2"> 16</option>
+<option value="1"> 17</option>
+<option value="2"> 18</option>
+<option value="1"> 19</option>
+<option value="2"> 20</option>
+<option value="1"> 21</option>
+<option value="2"> 22</option>
+<option value="1"> 23</option>
+<option value="2"> 24</option>
+<option value="1"> 25</option>
+<option value="2"> 26</option>
+<option value="1"> 27</option>
+<option value="2"> 28</option>
+<option value="1"> 29</option>
+<option value="2"> 30</option>
+<option value="2"> 31</option>
+<opcion value="" selected="selected">
+  </opcion>
+</select>
+
+<select name ="fecha">
+<option value="">Mes</option>
+<option value="1"> Enero</option>
+<option value="2"> Febrero</option>
+<option value="3"> Marzo</option>
+<option value="4"> Abril</option>
+<option value="5"> Mayo</option>
+<option value="6"> Junio</option>
+<option value="7"> Julio</option>
+<option value="8"> Agosto</option>
+<option value="9"> Septiebre</option>
+<option value="10">Octubre</option>
+<option value="11"> Noviembre</option>
+<option value="12"> Diciembre</option>
+<opcion value="" selected="selected">
+  </opcion>
+</select>
+
+<select name ="fecha">
+<option value="">Año</option>
+<option value="1"> 2008</option>
+<option value="2"> 2009</option>
+<option value="3"> 2010</option>
+<option value="4"> 2011</option>
+<option value="5"> 2012</option>
+<option value="6"> 2013</option>
+<option value="7"> 20124</option>
+<opcion value="" selected="selected">
+ </opcion>
+</select>
+ <br>Sexo<br>
+			<input type ="radio" name = "a"><label for ="masculino">Masculino</label><br/>
+			<input type ="radio" name = "a"><label for ="masculino">Femenino</label><br/>
+		</fieldset>
+		<fieldset>
+			Codigo;<input type = "text" name = "codigo" id = "codigo" size = "20" maxlenght = "10"><br/>
+			Password;<input type = "password" name = "Paswword" id = "codigo" size = "20" maxlenght = "10"><br/>
+		</fieldset>
+		<fieldset>
+			Domicilio;<input type = "text" size = "20" maxlenght = "10"><br/>
+			E-mail;<input type = "text" size = "20" maxlenght = "10"><br/>
+			Telefono;<input type = "text" size = "20" maxlenght = "10"><br/>
+		</fieldset>
+		<fieldset>
+		<legend aling="center">Personal</legend>
+			Interes en;<br>
+			<input type ="checkbox"><label for ="masculino">Deportes</label><br/>
+			<input type ="checkbox"><label for ="masculino">Cultura</label><br/>
+			<input type ="checkbox"><label for ="masculino">Ciencia</label><br/>
+			<input type ="checkbox"><label for ="masculino">Educacion</label><br/>
+			Obcervaciones<br>
+			<textarea name "observaciones" id = "observaciones" rows = "20" cols = "40"></textarea>
+		</fieldset>
+		<input type ="submit" value ="Enviar" onclick = "alert ('Enviado');"> 
+		<input type ="reset" value ="Cancelar" onclick = "alert ('Cancelado');">
+</form>
+<body>
+
+</html>
